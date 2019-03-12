@@ -1,9 +1,9 @@
-// Note that this code only worls if the LDR detects the change
-// within the led and and off duration. Adjust as necesarry.
+// Note that this code only works if the LDR detects the change
+// within the LED on and off duration. Adjust as necessary.
 //
-// Test the pure latency of the measurment system (mostly because of the type of LED and LDR used) by holding 
-// the LDR to the LED without any additionaly latency caused by external (video) transmission first.
-// This allows you to determine the average error in your measurments.
+// Test the pure latency of the measurement system (mostly because of the type of LED and LDR used) by holding 
+// the LDR to the LED without any additional latency caused by external (video) transmission.
+// This allows you to determine the average error in your measurements.
 
 #include <Wire.h>
 #include <Adafruit_GFX.h>
