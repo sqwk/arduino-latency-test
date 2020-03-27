@@ -9,7 +9,7 @@ Since the LED and the photoresistor tend to introduce their own latency, you can
 
 ### Adjusting the LDR treshold
 
-Currently, the latency is only measure when the LED turns off to prevent measuring any afterglow, which might falsify the average reading. Pick a LDR threshold that sits in the middle of the measured minimum and maximum photoresistor readings. (The current reading is also output on the OLED screen to make adjusting this value easier.)
+Currently, the latency is only measuren when the LED turns on to prevent measuring any afterglow, which might falsify the average reading. Pick a LDR threshold that sits in the middle of the measured minimum and maximum photoresistor readings. (The current reading is also output on the OLED screen to make adjusting this value easier.)
 
 
 ### Parts used
